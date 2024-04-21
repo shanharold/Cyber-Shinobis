@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url("images/wallpaperflare.com_wallpaper\ \(1\).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.profile-card {
+  background:linear-gradient(195deg,rgb(182, 78, 33),rgb(237, 17, 79));
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 4px solid #ff6b6b;
+}
+
+#user-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.profile-details {
+  text-align: left;
+}
+
+.profile-details p {
+  margin-bottom: 10px;
+  color: #666666;
+}
+
+.profile-details i {
+  color: #ff6b6b;
+  margin-right: 10px;
+}

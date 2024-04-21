@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lawyer Assistant</title>
+    <link rel="stylesheet" href="css/mainpage.css" />
+    <!-- Include meta tags for better SEO -->
+    <meta
+      name="description"
+      content="Get legal assistance with your questions."
+    />
+    <meta name="author" content="Your Name" />
+
+    <!-- Include a favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <!-- Include web fonts from Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="aboutus"><a href="user.html">About Us</a></div>
+    <div class="profile">
+      <a href="dets.html"
+        ><img src="css/icons/user.png" alt="" class="userimg"
+      /></a>
+    </div>
+    <header>
+      <h1 id="typing"></h1>
+    </header>
+    <main class="body-contents">
+      <section class="input-container">
+        <form class="input-form">
+          <h2 id="typing-2"></h2>
+          <div class="input-group">
+            <input
+              type="text"
+              class="textarea"
+              id="user-question"
+              placeholder="Enter Your Query"
+            />
+            <button id="ask-button" onclick="onclk()">Ask</button>
+          </div>
+        </form>
+      </section>
+      <section id="response-container">
+        <h2>Response:</h2>
+        <pre>
+        <div id="response"></div>
+      </pre>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 AI Assistant. All rights reserved By Cyber-Shinobies.</p>
+    </footer>
+
+    <!-- Include JavaScript at the end for faster page load -->
+    <script src="js/mainpage.JS" defer></script>
+  </body>
+</html>

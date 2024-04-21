@@ -1,0 +1,150 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav-links a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #666;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 6rem;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content h1 span {
+    color: #ff6b6b;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .hero-image img {
+    max-width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* About section styles */
+  .about {
+    max-width: 700px;
+    margin: 4rem auto;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .about p {
+    margin-bottom: 1rem;
+  }
+  
+  /* Skills section styles */
+  .skills {
+    max-width: 1200px;
+    margin: 4rem auto;
+    text-align: center;
+  }
+  
+  .skills h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .skill-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    margin: 1rem;
+    text-align: center;
+  }
+  
+  .skill img {
+    max-width: 80px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .skill h3 {
+    font-size: 1.2rem;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+
+.para{
+    align-items: center;
+    font-weight: 50;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.skill-list img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
